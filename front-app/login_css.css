@@ -1,0 +1,73 @@
+@media screen and (max-width: 932px) {
+  /* Estilos para telas pequenas */
+  body {
+    background-image: url("/img/background_adm.jpg");
+    background-repeat: no-repeat;
+    overflow-y:hidden;
+    background-size: cover; /* Para cobrir toda a área disponível */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 331.200px;
+    max-height: 499.825px;
+  }
+  .title{
+    margin-top: 50px;
+    color: #e7e7e7;
+  }
+  .adm_form {
+    
+    margin-top: 10vh;
+    display: grid;
+    place-content: center;
+    width: 220px;
+    height: 350px;
+    background-color:rgba(29, 28, 28, 0.69);
+    gap: 10px;
+    border-radius: 40px;
+    color: #E7E7E7;
+
+  }
+  .btn_adm {
+    
+    
+    display: inline-block;
+    margin-top: 7vh;
+    margin-left: 7vh;
+    width: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #e7e7e7;
+    border-radius: 10px; /* Define cantos arredondados */
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn_adm:hover {
+    background-color: #2980b9; /* Altera a cor ao passar o mouse sobre o botão */
+  }
+  
+  .btn_adm_{
+    display: inline-block;
+    width: 100px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF5722;
+    color: #e7e7e7;
+    border-radius: 10px; /* Define cantos arredondados */
+    border: none;
+    cursor: pointer;
+  }
+  .btn_adm_:hover {
+    background-color: #2980b9; /* Altera a cor ao passar o mouse sobre o botão */
+  }
+
+
+}
